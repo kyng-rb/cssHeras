@@ -1,0 +1,3 @@
+Text-align -> This property is used for align the content of an element, as long as, that content has no width declared, take in account 
+that works only for block elements and align the content, for align the element we use margins, when works with images we need to 
+force the display as block and if we have a container the img tag inside it should not be displayed as block

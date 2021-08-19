@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 10px;
+}
+
+h1 {
+	text-transform: uppercase;
+	color: deepskyblue;
+	text-align: center;
+}
+
+div {
+	padding: 8px;
+	text-align: center;
+}
+
+.first + div {
+	background-color: dodgerblue;
+	border-style: solid;
+	border-width: 1px;
+	border-color: firebrick;
+}
+
+.second ~ div {
+	color: fuchsia;
+	background-color: greenyellow;
+	box-shadow: 5px 5px deepskyblue;
+	margin: 12px;
+}

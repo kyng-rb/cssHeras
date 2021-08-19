@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+	padding: 10px;
+	background-color: #666;
+}
+
+h1 {
+	text-align: center;
+	padding-bottom: 25px;
+	color: deepskyblue;
+}
+
+.text {
+	text-align: center;
+	padding-bottom: 25px;
+	color: whitesmoke;
+}
+
+.box {
+	width: 150px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: gainsboro;
+	text-align: center;
+	padding-top: 15px;
+}
+
+a {
+	text-align: center;
+	color: white;
+	display: block;
+	padding-top: 50px;
+}
+
+img {
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+}

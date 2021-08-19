@@ -1,0 +1,26 @@
+Position -> this property is a enum with several values.
+
+relative -> as it's name says works with relatives measures, from it initial position to the put with the properties top, left, bottom and right, it mean
+if a box was initial put in the point 0,0 as top and left, the properties are going to move it from that position to the another, their size is keep, it means
+if is a block element it going to continue working with all the width.
+
+An element with position relative is going to move without matters its container, it can exceed it without problems.
+
+it should be noted that the space in the screen for the element that is going to be reallocated are going to be not ocupied for other element, a space in
+blank stayed displayed in its place
+
+Absolute -> this value is used for place an element with measures based on its  father or container, its measure are going to be missing, so we 
+need specify with and height, it's place in the screen will be ocupied for other element, it mean that all the layout around it is going to be reallocated.
+
+Take in account that it going to take the reference to the positioned ancestor
+
+Absolute - Position an element based on its closest positioned ancestor position.
+
+position: relative places an element relative to its current position without changing the layout around it, 
+whereas position: absolute places an element relative to its parent’s position and changing the layout around it.
+
+Sticky -> This property is used for pin an element to it's container element when it has a overflow, entry to action when put position sticky and with the
+other position elements is done (top, bottom, left and right). for example when put top 0, it going to stick to the container when the overflow of it touch 
+the point 0 in the screen. 
+
+Take in account that it going to works only if the overflow is visible

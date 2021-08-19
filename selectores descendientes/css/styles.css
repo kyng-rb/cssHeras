@@ -1,0 +1,13 @@
+h2 {
+	background-color: deepskyblue;
+	text-align: center;
+	width: 50%;
+	margin: 25px auto;
+}
+
+div h2 {
+	border-style: solid;
+	border-color: greenyellow;
+	color: whitesmoke;
+	box-shadow: 5px 5px teal;
+}

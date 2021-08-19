@@ -1,0 +1,6 @@
+Direct sons -> To use that we need to write to > symbol, that rule will apply styles to all the direct sons of the first element
+example.
+
+div > span{}
+that will apply styles to all the span elements inside the div tag, however the tags that are not direct sons of the div is going 
+to no suffer style changes

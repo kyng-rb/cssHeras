@@ -1,0 +1,31 @@
+Height and width -> Properties that define the size values for an element, this only apply styles for block elements, inline is 
+going not be affected, however, if we put the style display as block or inline-block for the inline element these styles
+can be use with those elements.
+
+Height -> When put % for an element wit a container with height declared it works relative way with the container, but
+when put height to a element without a container with height declared it going to work as auto, it means that it adjust
+automatically to their contents and going to ignore the value that we put. Normally the best solution for it is use paddings.
+
+When an element has position absolute or fixed the height with percentage % is going to be calculated using the total space of the viewport(screensize)
+
+width -> By default the block elements use the 100% with of their container, an common issue is put 100% to an child element and after put paddings and margins
+and a scroll appear, the fatest way to solve it is use with auto, the browser is going to calculate the width for the element taking in
+account the added properties (margin padding, etc)
+
+Margin -> This property is used for establish space between one element and the others, take in account that the inline elements
+has no top and bottom margins. Also take in account that we are able to put in center an element using margin auto, however, that element
+must be a block with width established.
+
+One thing to take in account when works with vertical margins is that it's collapses, it mean that the lower margin is disabled and
+the greater is that take effect, for example if we have two elements vertically sorted and put margin bottom to the first 20px for example
+and a margin-top of 50px, css is going to put only 50px between them, not 70px that usually is the we await. A usual practice that the developers
+do is avoid top margins and put only bottom margins.
+
+Another issue that exists with margin is the margin collapse with the son elements, it issue causes that the parent element move of it's place
+there are several things to solve it, adding some styles to the parent:
+Border, padding or overflow hidden, these are hacks to avoid that behavior
+
+Personally i prefer use paddings, i found it more comprehensible
+
+Padding -> This property is used for establish space between the elements and their contents, it mean a space between the things inside a
+html element and their borders, take in account the inline elements are able to use it without restrictions.

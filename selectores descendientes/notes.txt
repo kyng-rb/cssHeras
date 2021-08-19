@@ -1,0 +1,9 @@
+Descendent selectors - Represents the union of two or more elements joined by an blank space, apply styles to the
+second element that have direct related to the first. example 
+
+div h2 {...}
+
+the above example apply styles to the all h2 elements inside a div tag
+
+take in account that is not necesary an direct relation between the elements like son and father, it mean that with 
+the same example, the h2 elements can be inside other element and still applying the styles

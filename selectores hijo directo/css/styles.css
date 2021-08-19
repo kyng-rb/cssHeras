@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 8px;
+}
+
+h1 {
+	margin: auto;
+	color: deepskyblue;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+.container > span {
+	margin: 10px auto;
+	border-color: red;
+	border-style: solid;
+	display: block;
+}

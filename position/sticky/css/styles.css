@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+	background-color: #333;
+	padding: 10px;
+	color: white;
+}
+
+.img-container {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+header {
+	position: sticky;
+	/* top: 0px; */
+	text-align: center;
+	font-size: 45px;
+	padding-bottom: 20px;
+	background-color: #666;
+}
+
+article > h2 {
+	position: sticky;
+	background-color: darkcyan;
+	text-align: center;
+	top: 20px;
+}
+
+article {
+	overflow: visible;
+}

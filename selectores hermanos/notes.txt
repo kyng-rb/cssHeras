@@ -1,0 +1,21 @@
+Brothers selector -> There are two ways to use it.
+
+First: First Brother -> For use it we need to write and + symbol and it will apply styles only to the first brother element
+that match with the selector. example
+    div + h2 {}
+That going to apply styles only to the first h2 element brother to the div.
+
+Second: All next brothers -> For use it we need to write ~ symbol, it is going to apply styles to the all next brother elements
+next from the selected element. example
+    div ~ .text {}
+That going to apply styles to the all brother elements from there to the last. it mean
+
+Element 1
+Element 2 *
+Element 3
+Element 4
+Element 5
+Element 6
+Element 7
+
+If we select the elememt 2, the elements 3 ~ 7 will be affected
