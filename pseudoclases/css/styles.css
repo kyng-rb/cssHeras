@@ -1,0 +1,75 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+}
+
+.title {
+	text-align: center;
+	color: gray;
+}
+
+.link,
+.btn {
+	display: block;
+	padding: 20px 35px;
+	color: white;
+	text-decoration: none;
+}
+
+.link:link {
+	background-color: deepskyblue;
+}
+
+.link:visited {
+	background-color: firebrick;
+}
+
+.link:active {
+	background-color: fuchsia;
+}
+
+.btn {
+	background-color: cyan;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.btn:hover {
+	background-color: darkgrey;
+	color: cyan;
+	border-radius: 50%;
+	border: 1px solid;
+}
+
+.input:focus {
+	transform: scale(2);
+	background-color: darkblue;
+	color: white;
+}
+
+.text {
+	position: relative;
+	margin-top: 2000px;
+	padding-bottom: 50px;
+}
+
+.text:target {
+	background-color: yellowgreen;
+}
+
+.menu {
+	background-color: deepskyblue;
+	padding: 35px;
+	text-align: center;
+
+	position: sticky;
+	top: 0px;
+}
+
+.menu a {
+	color: white;
+	text-decoration: none;
+}

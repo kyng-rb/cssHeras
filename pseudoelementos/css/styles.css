@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: #666;
+}
+
+h1::first-letter {
+	color: aquamarine;
+}
+
+.text::first-line {
+	color: chartreuse;
+}
+
+.text {
+	padding: 20px 50px 100px;
+	text-align: center;
+}
+
+.text::selection {
+	background-color: crimson;
+	color: floralwhite;
+}
+
+.img-container {
+	margin: auto;
+	text-align: center;
+}
+
+.img-container::before,
+.img-container::after {
+	content: "A sexy image just here";
+	display: block;
+	background-color: coral;
+	height: 50px;
+}

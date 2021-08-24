@@ -1,0 +1,24 @@
+Pseudo-class -> These are selector that works in real time to some events onside a element, it's nomenclature is element two points(:) Pseudo-class,
+there are exists several, in this note i am going to take the dynamics, they are Active, Link, Visited, Hover, Focus
+
+Active - Link - Visited -> They are elements that work only when the element is a link(a tag) and there are rarely used.
+1 - Link -> Put styles to links that have not yet been visited(default)
+2 - Active -> Put styles to link when we click down (and not click up) to a link (usually use fot simulate interactions with a button/link like
+scale, change color, etc)
+3 - Visited -> Put styles to the already visited links
+
+Hover -> This works onside any element and works when we put the cursor onside a element and persist in there, when we move the cursor
+from there the Pseudo-class is removed with their styles.
+
+Focus -> This apply styles on any element that has the focus of the screen, also take in account that when we loses the focus, the
+Pseudo-class is removed
+
+Target -> This apply styles to the single element that is redirected by a link using anchors (an anchor is a way to redirect the viewport
+to a specific element using links and putting id to them)
+
+for example
+<a ref:"#mytext">
+many many text ...
+p id="mytext"
+
+The above example is going to select the p after click the a tag

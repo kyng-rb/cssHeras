@@ -1,0 +1,9 @@
+Pseudo Elements
+
+They are elements that are not part of the initial html, for that nor to the DOM, for use it we need put double double point after our selector(::).
+
+::First-Letter -> It apply styles only to the first letter of the selected elements  (Only applies for block elements)
+::First-Line -> It apply styles only to the first line of the selected element       (Only applies for block elements)
+::Selection -> It apply styles only to the text that was selected with the mouse
+::Before && ::After -> As it name says, it is a element that appear before/after to the selected element, by default are inline elements
+ and use the property content is a must, they are sons of the selected element
