@@ -22,3 +22,31 @@ many many text ...
 p id="mytext"
 
 The above example is going to select the p after click the a tag
+
+Structural Pseudo-class
+
+This allows apply styles to elements taking in account the structure of the dom
+
+first-child, last-child, nth-child() -> All of them are Pseudo-Class that apply styles to a element that has sibling brothers
+with the same selector (can be a class or a tag), for example several `li` elements inside a ul.
+
+first-child -> take the first element of the sibling structure
+last-child -> take the last elements
+nth-child() -> This accept several parameters and apply styles to the siblings that reach that. posible values
+ even - Take the par elements
+ odd -> Take the impar
+ int -> Take an specific element based on its indice
+ formule -> We can introduce formule to it, taking in account that n works like an current element in a loop
+nth-last-child -> Works like nth child but its calculations begin from the last element 
+only-child -> Take the element selected when it is alone (no siblings), not works when has siblings without care the tag or class
+
+Types -> It allows us apply styles to a selector between siblings with the same type of selector, for example a div container with 
+several h3 and p tags, we can apply styles to the first p and ignore all the h3 before it, have the exactly same methods
+of the child but with the 'of-type' in place of 'child'
+
+first-of-type, last-of-type, nth-of-type, nth-last-of-type and only-type
+
+Not -> It allows us apply styles to all the elements catched for a selector without a condition, also can bee seen like a 
+ignore to a element that reach certain condition, for exapmle apply styles to all the div without class text
+    div:not(.text) { ... }
+the parentesis accept any selector, pseudoclass and pseudoelement

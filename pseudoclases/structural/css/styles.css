@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+/* 
+.paragraph:first-child {
+  background-color: aquamarine;
+}
+
+.paragraph:last-child {
+  background-color: brown;
+}
+
+.paragraph:nth-child(2) {
+  background-color: chocolate;
+}
+
+.paragraph:nth-child(even) {
+  background-color: red;
+}
+
+.paragraph:nth-child(odd) {
+  background-color: deepskyblue;
+}
+
+.paragraph:nth-child(n + 2) {
+  background-color: fuchsia;
+} 
+
+.paragraph:only-child {
+  background-color: deepskyblue;
+}
+
+.paragraph3:first-of-type {
+  background-color: dodgerblue;
+}
+
+.content:last-of-type {
+  background-color: greenyellow;
+}
+*/
+
+.paragraph:not(.last) {
+  background-color: greenyellow;
+}
