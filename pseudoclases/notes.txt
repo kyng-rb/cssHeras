@@ -22,3 +22,14 @@ many many text ...
 p id="mytext"
 
 The above example is going to select the p after click the a tag
+
+Pseudo-Class for forms, they are Enabled, Disabled, Checked, In-Range- Out-Range, Optional, Required, Valid and invalid
+It classes are only allowed in forms/input tag elements and help us to manipulate the tags depending of the status of the input.
+Enabled -> By default all the input has this behavior because all the inputs are enabled by default
+Disabled -> Come to action when set the attribute disabled to a tag
+Checked -> It apply to the checkbox input and come to action when it is clicked
+In-range -> It apply for number input and need that the input had set the min and max attributes, when the value is in range apply styles
+Out-range -> It is the revert of the In-Range 
+Optional -> By default apply styles to all the input, only avoid the input with Required attribute enabled
+Required -> It apply styles to all the inputs with the Required tag set
+Valid and Invalid works similar to In-Range and Out-Range

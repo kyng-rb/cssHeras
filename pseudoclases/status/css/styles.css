@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+	background-color: gray;
+}
+
+.label,
+.input {
+	display: block;
+	margin: 5px 50px;
+}
+
+.input {
+	margin-bottom: 50px;
+}
+
+.input:enabled {
+	background-color: green;
+}
+
+.input:disabled {
+	height: 25px;
+	border-style: double;
+	border-color: greenyellow;
+}
+
+.input:checked + label {
+	display: none;
+}
+
+.input:in-range {
+	background-color: hotpink;
+}
+
+.input:out-of-range {
+	background-color: blue;
+}
+
+.input:optional {
+	background-color: chocolate;
+}
+
+.input:required {
+	background-color: deepskyblue;
+}
