@@ -1,0 +1,15 @@
+CSS Variables -> It works in the same way of the variables of any programming language, it represents a 
+memory space that allow store a value.
+
+In order to declare it we need to write a double dashes and the variable name, for example --my-variable and for 
+read the value of it we need to call the function var() and send as parameter the name of the variable, for 
+example var(--my-variable).
+
+It can store a string like color or a composed value like the borders for example --my-variable: solid 1px red.
+
+The value stored can be replaced, the way to do it is the same of declare it, --my-variable: value, take 
+in account that the it will affect to only the sons members of the rule that redefined it, working
+in the similar way as a cascade.
+
+Taking in account that it works like a cascade is a normal practice declare the variables in the root of the document
+using the pseudo-class :root
