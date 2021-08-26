@@ -1,0 +1,19 @@
+Background -> This property allows modify the background of a box, it englobe 9 properties, they are
+
+background-color    -> Allows change the main color of a box
+background-image    -> Allows define a image as a content of a box, it require use the function url(resourcepath...) 
+background-size     -> Allows define the size of the content for the box, can take several values
+                       auto, initial: the default behavior of the property
+                       cover: It obliges to the content to cover all the box, without care the size of the box, it mean
+                              can display only a part of the content,  when it is minor obliging to the content to grow, 
+                              it can expand a image
+                       contain: It obliges to the content to be showed in all the box, it can end in repeat the content.
+                       values for x and y, it allows set a size using pixels.
+background-repeat   -> Allows modify the behavior of the content when it is refilling the blank spaces, values
+                       auto: the default behavior
+                       repeat: allows repeat image when is needed
+                       no-repeat: avoid repeat the content of the box
+background-position -> Allows modify the position of the content of the box, allows several values.
+                       x,y in pixels or any measure
+                       auto, inherit, initial -> default behavior
+                       x-position y-position - where position can be top, left, right, center, bottom

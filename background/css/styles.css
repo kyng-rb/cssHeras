@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+	background-color: rgb(233, 233, 233);
+}
+
+.main-container,
+.title {
+	text-align: center;
+}
+
+.container {
+	display: inline-block;
+	width: 30%;
+	height: 250px;
+	border: 1px solid deepskyblue;
+}
+
+.bg-color {
+	background-color: fuchsia;
+}
+
+.bg-image {
+	background-image: url(./../assets/img/19933ba2df2dca0b66566ca34c12d7ec.jpg);
+}
+
+.bg-size {
+	background-image: url(./../assets/img/1356198.jpg);
+	background-size: contain;
+}
+
+.bg-repeat {
+	background-image: url(./../assets/img/19933ba2df2dca0b66566ca34c12d7ec.jpg);
+	background-repeat: no-repeat;
+}
+
+.bg-position {
+	background-image: url(./../assets/img/19933ba2df2dca0b66566ca34c12d7ec.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
