@@ -1,7 +1,7 @@
 Background -> This property allows modify the background of a box, it englobe 9 properties, they are
 
 background-color    -> Allows change the main color of a box
-background-image    -> Allows define a image as a content of a box, it require use the function url(resourcepath...) 
+background-image    -> Allows define a image as a content of a box, it require use the function url(resource path...) 
 background-size     -> Allows define the size of the content for the box, can take several values
                        auto, initial: the default behavior of the property
                        cover: It obliges to the content to cover all the box, without care the size of the box, it mean
@@ -17,3 +17,10 @@ background-position -> Allows modify the position of the content of the box, all
                        x,y in pixels or any measure
                        auto, inherit, initial -> default behavior
                        x-position y-position - where position can be top, left, right, center, bottom
+background-attachment -> Allows stablish the position of the image with respect to the container, have 3 values 
+                         scroll - Default behavior and move the image with the box when we do a scroll
+                         inherit - Allows to the father decide the behavior
+                         fixed - Put the image with a fixed position on the screen and move the box around the image
+                         (parallax effect)
+Take in account that the background allows put several values for all the properties, it 
+allows us define several background images, colors, etc. The way to do it is separates it by comma characters.                         
