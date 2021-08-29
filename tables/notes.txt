@@ -1,0 +1,24 @@
+Tables section -> The table tags have several styles that we can redefine, between it's
+we are going to redefine the must used:
+
+Border-Collapse -> It allows how the borders are going to be displayed, it with
+reference to the near borders, by default the value is separated it mean that the 
+border are going to have a little space between its, the other possible value is
+collapse and it refer to the borders are going to be joined with no spaces between them.
+
+Caption-Side -> The caption is a element inside the tables that works like a title
+and it can be displayed on the top or the bottom of the cell, this property 
+allows us define where it is going to be displayed.
+
+table-layout -> It refer to the way to the the browser is going to use
+for calculate the with of the colum, the first one and by default is auto and it
+calculate the size based on the content of the data in the rows. The other one
+is fixed it needs that we define a with, after that it calculates the with of the 
+sections based on the first row and will be the same for all the columns, it mean 
+that all the columns is going to have the same width with no care of the content.
+
+Empty-cells: It refer to the behavior of the empty cell, it can be displayed or hidden
+but for hides a cell we need define the border collapse as separate first.
+
+Border-space -> It refers to the space between the border of the td elements and 
+accept any space web unity

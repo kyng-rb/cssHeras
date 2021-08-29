@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: lightyellow;
+}
+
+.title {
+	text-align: center;
+	color: darkmagenta;
+}
+
+.table {
+	margin-top: 50px;
+	table-layout: auto;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: separate;
+	caption-side: bottom;
+	empty-cells: hide;
+	border-spacing: 13px;
+	background-color: deepskyblue;
+}
+
+.table,
+.table-head,
+.table-data,
+caption {
+	border-style: solid;
+	border-width: 2px;
+	border-color: darkred;
+}
+
+.table-data {
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: lightcyan;
+}
