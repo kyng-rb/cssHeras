@@ -1,0 +1,12 @@
+Fonts -> It allows define how the text is going to draw, it using the property font-family, for 
+define it we can use the default fonts or make reference to it by google fonts services or 
+download the ttf file.
+
+For use google fonts service we need select a font in the site and make reference to the google style sheet
+in the html and use that font, the google fonts page is too descriptive with the ways.
+
+Also we can use a font from out project, downloading the ttf file (usually is placed in assets/fonts) after that
+declare the font, by the rule @font-face and defining the font-name and the source url.
+
+Normally in the value of the property font-family we define several fonts, it trying to catch the case of a fail 
+loading the fonts

@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: #666;
+}
+
+.title {
+	text-align: center;
+	color: deepskyblue;
+	font-family: "Dancing Script", cursive;
+}
+
+.paragraph,
+.paragraph2 {
+	text-align: center;
+	margin-top: 50px;
+	display: inline-block;
+	color: white;
+}
+
+.paragraph {
+	font-family: "Permanent Marker", cursive;
+}
+
+.paragraph2 {
+	font-family: my-font;
+}
+
+@font-face {
+	font-family: my-font;
+	src: url("./../assets/fonts/GloriaHallelujah-Regular.ttf");
+}
