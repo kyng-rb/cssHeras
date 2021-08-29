@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: lightsteelblue;
+}
+
+.img-shiro {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.img-overflow {
+	max-width: 100%;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+.title-container {
+	display: table;
+	background-color: yellowgreen;
+}
+
+.title-container img,
+.title-container span {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.flexbox-center {
+	display: flex;
+	align-items: center;
+}
+
+.inline-container {
+	text-align: center;
+	margin-top: 25px;
+}

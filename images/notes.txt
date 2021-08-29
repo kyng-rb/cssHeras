@@ -1,0 +1,26 @@
+Images -> There are several errors that are typical on web app development between them
+the use of images, on it we are going to check some of them.
+
+Center images
+There are several ways to do it, now we are going to check a couple of them.
+display as block or inline-block: By default an img tag is inline element it mean
+that is going to grow with the image size and the margins are going to not work,
+solve that is simple than display the image as block or inline block and 
+redefine the horizontal margins to auto.
+The other one way to do it is avoid change the display property and put the img tag
+inside an container, after did this define the text-align property of the 
+container to Center.
+
+Overflow of Images
+Is a common issue and is caused by an image too big for the container, remembering the
+img tags are inline it is going to grow, the best way to treat with this without 
+affect the image look is define the max with of the image to the 100% of the container.
+
+Center image and text
+It is common for titles and more, there are two ways to do it.
+The first one is defining the container a display table and the elements
+as display table cell and vertical align to middle.
+
+The second one and most used is define the display property of the container 
+as flex and the align-items property also of the container as Center, this is 
+widely used but is not working with some old browsers.
