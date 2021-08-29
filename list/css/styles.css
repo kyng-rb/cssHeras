@@ -1,0 +1,28 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: lightyellow;
+}
+
+.list {
+	list-style-type: none;
+	margin-top: 0px;
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+
+.list-item {
+	background-image: url("./../assets/img/checkmark.svg");
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-left: 35px;
+	cursor: move;
+}
+
+.list-item:not(.list-item:last-child) {
+	margin-bottom: 10px;
+}

@@ -1,0 +1,14 @@
+List Styles -> On it we apply styles to a list and its items.
+
+The first point to take in account is that by default the list have several style elements
+and is a common practice reset it, those are padding-left and margin-top/bottom.
+
+With the list elements we have several properties that can be redefined between its the most
+used is list-style-type and its refer to the icon at the left of the list elements, usually its
+is updated to none and we can redefine it. The other properties are list-style-position and 
+it refers to the icon are going to be part of the list item element or not. The other one is 
+list-style-image and it allows us change the element icon with a image, usually is not used cause
+is a bit difficult treat with that.
+
+List elements -> For that usually update the icon and put a image, to do it we use the 
+background properties or use the pseudo-element before, but is simplest with the fist one.
