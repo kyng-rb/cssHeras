@@ -1,0 +1,17 @@
+Object Fit -> It allows us modify the way of the content is going to be
+adjusted.
+
+Fill -> Default value, it try to adjust the content to cover all the container
+it adjust the content dimensions to fill the container.
+
+contain -> It adjust the content dimensions for fill horizontally or vertically
+to adjust the content with no lose the original proportions
+
+cover -> It works in the same way of the fill but with no lose the original
+proportions, it can hide the exceed content
+
+none -> It no adjust the size of the content, shows with the original dimensions
+it hide the exceed.
+
+object position -> It allows set the position of the image displayed, 
+accept two parameters for 'x' and 'Y' axis and accept any web measure unity (also center, bottom, top, etc)
