@@ -1,0 +1,15 @@
+Flex -> This property is used on the flex items and allows us modify the behavior of the dynamic resizing 
+on the main axis of the items, this is a shorthand of flex-grow, flex-shrink and flex-basis, the default
+value to that property is flex: 0 1 auto.
+
+Flex-grow: This property modify the behavior of the item when there is a no used space between the container and 
+the set of flex items, it takes an integer value, and sum to the actual with space the result of divide the 
+blank space between the grow number. Usually put the value to zero causing that the item takes all the blank space.
+Also takes in account that if several items has a flex-grow the formula takes in account the sum of all the 
+flex-grow items.
+
+Flex-shrink: This property modify the with size of the item when it needs to be reduce for avoid overflow the
+container, it takes a integer as value, by default is 1 for all the elements, it represent a factor for resize the 
+item element, when the value for it grows the downgrade with value for the element will increment.
+
+Flex-basis: This property allows us set a specific width to the items that flex is going to avoid to override.
