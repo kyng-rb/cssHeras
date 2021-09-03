@@ -52,3 +52,5 @@ Cross Axis: Align-content -> This allows os to align the son element on the cros
 elements, why? because with the first approach the container is divide between the number of lines and apply align between that 
 little parts of the content, this property allows us modify the align of the item like a only object. the way to work is exactly the 
 same of the first one.
+
+Cross axis: Align-self -> This property allows us modify the align of a specific item on the cross axis, works similar to align-item

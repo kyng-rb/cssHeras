@@ -14,7 +14,6 @@ body {
 	flex-wrap: wrap;
 	height: 800px;
 	justify-content: center;
-	align-items: flex-start;
 }
 
 .flex-item {
@@ -23,6 +22,8 @@ body {
 	/* height: 120px; */
 	font-weight: bold;
 	margin: 10px;
-	line-height: 80px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	text-align: center;
+	align-self: center;
 }
