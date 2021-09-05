@@ -1,0 +1,68 @@
+body {
+	background: linear-gradient(to right, #667eea, #764ba2);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.grid-container {
+	display: grid;
+	color: white;
+	grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px;
+	grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+	gap: 2px;
+}
+
+.grid-item {
+	border: 1px white solid;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.grid-item:first-child {
+	background-color: pink;
+	grid-row: 1/15;
+	grid-column: 1/5;
+}
+
+.grid-item:nth-child(2) {
+	background-color: rebeccapurple;
+	grid-column: 5/8;
+	grid-row: 1/7;
+}
+
+.grid-item:nth-child(3) {
+	background-color: green;
+	grid-row: 1/10;
+}
+
+.grid-item:nth-child(4) {
+	background-color: rebeccapurple;
+	grid-row: 10/15;
+	grid-column: 8/9;
+}
+
+.grid-item:nth-child(5) {
+	background-color: green;
+	grid-column: 5/8;
+	grid-row: 12/15;
+}
+
+.grid-item:nth-child(6) {
+	background-color: green;
+	grid-row: 7/12;
+	grid-column: 5/6;
+}
+
+.grid-item:nth-child(7) {
+	background-color: hotpink;
+	grid-row: 8/12;
+	grid-column: 6/8;
+}
+
+.grid-item:nth-child(8) {
+	background-color: deepskyblue;
+	grid-column: 6/8;
+}

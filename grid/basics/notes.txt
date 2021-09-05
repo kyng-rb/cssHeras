@@ -1,0 +1,29 @@
+Grid -> Is a possible value for the property display and is used to create layout pages, like flexbox
+the element with display Grid value we become the container to a grid container and the direct sons 
+of that element to grid elements.
+
+Take in account that this represent a way to make a grid or something like visually works like a table.
+
+Basic concepts: Taking in account that the base elements for it are columns and rows we have, also
+have cells, column lines and row lines.
+
+Like in flexbox there are several properties that works with grid:
+grid-template-rows: Accept several web measure values that represent the height of the cells, when add a new 
+                   value a new row is going to be added.
+grid-template-columns: Works similar to rows but it represent the width and number of columns to add.
+gap: It is a short-hand of column gap and row gap and represent the value of distance between the one cell
+     and the other close cells.
+
+Taking in account that a cell have row and column lines, we are able to increment the size of a cell
+taking as reference the row and column lines or another cell, it works like join cells in excel, but
+with difference that the cell that is currently using that place is going to be reallocated, to do that 
+our currently grid need to have empty cells. For do that grid provide a couple of properties.
+
+grid-column: It is shorthand of grid-column-starts and grid-column-ends, and accept two values separated 
+by a slash (/) that indicates the current cell is going to update his size, the provided values 
+represents where the cells starts and where ends, the values correspond to the grid colum lines.
+
+
+grid-row: It is shorthand of grid-row-starts and grid-row-ends, and accept two values separated 
+by a slash (/) that indicates the current cell is going to update his size, the provided values 
+represents where the cells starts and where ends, the values correspond to the grid colum lines.
