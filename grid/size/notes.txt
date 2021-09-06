@@ -11,3 +11,21 @@ of sizes that normally is one value. For example:
 repeat(4, 75px): represent 75px 75px 75px 75px or 4 columns/rows of that size
 repeat(2, 50px 70px): represent 50px 70px 50px 70px as we says the second parameter
             represent a pattern it mean that is going to repeat for every iteration.  
+
+Explicit Grid: The grid that we define with the properties grid-template-columns/rows is the explicit grid,
+an object like a table where we define the size.
+
+Implicit Grid: The grid that we do not define but still is draw by the browser is the implicit grid, for example
+define 10 elements and a grid of 3*3, the ten element is part of the implicit grid.
+
+Once time defined the implicit grid we have several properties for modify his behavior.
+grid-auto-columns: It define the width of the implicit columns, it only make sense when the auto flow is column.
+grid-auto-rows: Define the height size of the rows that are part of the implicit grid, also make sense
+                when the grid-auto-flow is rows.
+grid-auto-flow: It define the behavior of draw of the elements that are part of the grid container but are no 
+part of the explicit grid, it have 3 possible values.
+columns: Add the implicit grid elements as columns
+row: (default) add the implicit grid elements as rows.
+dense: It add the implicit grid elements on the empty places of the screen, it make sense when we draw a grid 
+but after move some cells we ending have empty cell places, dense try to include the implicit elements for 
+fill that places, it can be used with row and column values.

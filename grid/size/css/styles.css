@@ -9,9 +9,11 @@ body {
 .grid-container {
   display: grid;
   color: white;
-  grid-template-columns: 75px repeat(3, 75px 50px);
-  grid-template-rows: repeat(3, 75px);
+  grid-template-columns: repeat(3, 75px);
+  grid-template-rows: repeat(2, 75px);
   gap: 5px;
+  grid-auto-columns: 300px;
+  grid-auto-flow: column;
 }
 
 .grid-item {
