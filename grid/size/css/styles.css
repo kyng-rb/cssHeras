@@ -1,0 +1,23 @@
+body {
+  background: linear-gradient(to right, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.grid-container {
+  display: grid;
+  color: white;
+  grid-template-columns: 75px repeat(3, 75px 50px);
+  grid-template-rows: repeat(3, 75px);
+  gap: 5px;
+}
+
+.grid-item {
+  padding: 1rem;
+  border: 1px white solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

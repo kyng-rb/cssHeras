@@ -1,0 +1,13 @@
+Grid cell size -> The set the cell size of the grid items, grid provide us
+a property, that is grid-template-columns/rows that accept a list of values
+these represents the number of columns/rows and his sizes, the values are web
+measures and accept another extra measure that is fr.
+
+fr -> represents a fraction and divide the blank space around the cell -- TODO: Improve this comment definition
+
+Another thing that accepts those properties is the function repeat, that receive
+two parameters, the first is the number of iterations and the second a pattern
+of sizes that normally is one value. For example: 
+repeat(4, 75px): represent 75px 75px 75px 75px or 4 columns/rows of that size
+repeat(2, 50px 70px): represent 50px 70px 50px 70px as we says the second parameter
+            represent a pattern it mean that is going to repeat for every iteration.  
