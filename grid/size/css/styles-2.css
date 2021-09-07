@@ -1,0 +1,19 @@
+body {
+  background: linear-gradient(to right, #667eea, #764ba2);
+  height: 100vh;
+}
+
+.grid-container {
+  display: grid;
+  color: white;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  gap: 2px;
+}
+
+.grid-item {
+  padding: 1rem;
+  border: 1px white solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

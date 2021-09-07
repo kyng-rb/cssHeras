@@ -29,3 +29,21 @@ row: (default) add the implicit grid elements as rows.
 dense: It add the implicit grid elements on the empty places of the screen, it make sense when we draw a grid 
 but after move some cells we ending have empty cell places, dense try to include the implicit elements for 
 fill that places, it can be used with row and column values.
+
+MinMax -> To set measure to the cells from the container we have a function to manage the resize of the cell when 
+the browser is expanded or reduced, that function is min max, accept two parameters thats are as his names says, the 
+min and the max value of size in main or cross axis that a cell could reach.
+
+min-content -> This is a value used as a grid measure, and basically says to his property that the value of the element
+is going to be equal to the min expression of the content. usually the content can be resized in depends of his container
+for example with text their can jump to other line.
+
+max-content -> This value also is used as a grid measure, and represent the value of the content without resizing or anything
+it is the value of the content expanded.
+
+auto-fill -> For set the columns or rows we usually define a number of elements in the grid-template-columns/rows property, this 
+property allows us let to the browser decide it, using all the space in the viewport but without resize the elements, this property
+divide the viewport size between the size of a cell and create all the divisions that he can.
+
+auto-fit -> Works in the same way of auto-fill but it overwrite the size of the elements with the goal of fill all the viewport,
+leaving it with no white spaces
