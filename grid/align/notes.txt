@@ -1,0 +1,45 @@
+Grid Align -> Like in the flexbox section this also have a align section and 
+works in the same way to the flexbox, we have two approaches to set the align 
+of the elements and those are Content align and items align.
+
+Content -> For this we have 2 properties and a shorthand, the content align 
+set the alignment of the cells with respect to the container, it means align 
+the set of elements like just one element with respect to the Grid.
+
+Justify-Content: It's set the alignment for the elements in the horizontal axis
+and have several values:
+start/flex-start: Align the grid at the point 0 of the X axis.
+end/flex-end: Align the grid at the last point of the X axis.
+Space-Between: Fill all the container with no spaces with near the corners and put
+               the same space between all the elements.
+Center: Align all the elements to the center of the X axis.
+Space-around: Define the same space between the elements and set the half of that 
+              space between the container limits and the first/last element.
+Space-evenly: Define a space between the elements and put the same space between
+              theirs and the last/first element.
+stretch: Default value and fill all the cell for get an alignment
+
+Align-Content: Define the alignment of the grid in the Y axis with respect 
+to the container, also have several values.
+start: Put the elements at the point 0 of the Y axis.
+end: Put the elements at the last point of the Y axis.
+center: Put the elements at the middle of the Y axis.
+stretch: Default value and fill all the cell for get an alignment.
+
+Also have a shorthand for manage those properties, that is 
+place-content: accept tow values that come from the Justify-Content and Align-Content
+for example: center last or only center, when receive only one value put the same
+for both properties.
+
+Also have another type of alignment that is used for align the content of the each 
+cell with respect to the cell limits.
+Those are Justify-Items and Align-Items and works equal to the content properties
+and have the shorthand place-items that works equal to the content.
+
+Also we need modify the align item properties for a specific grid member, we 
+reach that using the align-self and Justify-self properties.
+
+We also can modify the order of the elements using the property order, this is 
+0 by default for all the grid items that means the html is going to decide the 
+order of the elements, increments that value is going to make that the specific
+item will render at the end of the items.
