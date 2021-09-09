@@ -1,0 +1,12 @@
+About flex: To reach the responsive behavior we can use flex-box, is too important for this
+use the wrap value for flex-wrap property, why? use that will cause the elements skips to the 
+next line in order to avoid overflow the container.
+
+One time with that we need set the grow and shrink factors to let to the son elements resize with respect 
+to the container.
+
+Also is important define the basis factor of the elements, use this in combination with the grow and shrink
+is useful because it is going to be the size base for the grow or shrink behavior of the elements. For example 
+a set of elements inside a container with width of 1000 if we leave the elements with no basis is going to take
+all the with for each element, but if we put the basis to 300 at least 3 elements are going to be placed at the 
+wide of the container and when the container resize the elements will modify his size based on the original basis measure.

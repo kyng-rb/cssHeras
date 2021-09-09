@@ -19,7 +19,7 @@ exceed the size of the container they make a overflow of the container by defaul
 behavior of the elements when it overflow the container, to be concise it allows create another row or column of 
 elements to avoid overflow the container the default value es nowrap and means to the son element to they should 
 overflow the container, other value is wrap and it mean that the elements must create another row or column if they
-are going to exceed the container and the last value is wrap-reverse and it woks like wrap but it push the element to 
+are going to exceed the container and the last value is wrap-reverse and it works like wrap but it push the element to 
 the reverse order, for example if a flex with column direction creates new rows to the bottom of the current row
 this creates new rows to the top of the current. 
 
