@@ -1,0 +1,19 @@
+Breakpoints refer to screen sizes where the app design takes another design, there are many Breakpoints and 
+refers to the most used display sizes in the actual market.
+
+Here a list of the most used:
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV
+
+
+And to use we need the media query, as we know the screen is the most used
+and in combination with the breakpoint sizes we has several patterns like.
+@media screen and (min-width: 1025px|etc).
+
+The most used pattern to build design is mobile first, that means the first to build is the design for mobile
+screens and scale to the largest.
+
+Inside a media query we can update or css rules for adjust his look to the desired display
