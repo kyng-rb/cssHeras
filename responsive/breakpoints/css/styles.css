@@ -1,0 +1,81 @@
+body {
+  min-height: 100vh;
+  background-color: teal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  margin-bottom: auto;
+  height: 7.5vmax;
+  background-color: thistle;
+  font-family: "Pacifico", cursive;
+  position: sticky;
+  top: 0;
+}
+
+.footer {
+  margin-top: auto;
+  height: 5vmax;
+  background-color: wheat;
+  position: sticky;
+  bottom: 0;
+}
+
+.footer,
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Pacifico", cursive;
+}
+
+.main-content {
+  padding: 50px 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 5px;
+  align-content: center;
+  justify-content: center;
+  background-color: yellowgreen;
+  margin: 15px 10px;
+}
+
+.element {
+  padding: 1rem;
+  border: solid gray 1px;
+  display: flex;
+  justify-content: center;
+  font-family: "Amatic SC", cursive;
+}
+
+.content-element:nth-child(3n) {
+  background-color: turquoise;
+}
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  .main-content {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .main-content {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .footer {
+    height: 5vh;
+  }
+
+  .header {
+    height: 7.5vh;
+  }
+}
