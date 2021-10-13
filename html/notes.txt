@@ -1,0 +1,7 @@
+There are several tags that must be used for give us a correct semantic of our document
+
+Article - This represents a part of the document that in its own sense and could be moved to another page, website, application and still make sense, such as a youtube card of a video, which could be placed anywhere and still be relevant or self-sufficient.
+
+The article tags are independent content, for that reason they must have his own header, main, footer and other semantic tags.
+
+Section - represents a block of the document that is related with him, allows group several elements that are related.
